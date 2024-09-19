@@ -1,0 +1,53 @@
+/*head{
+    background-color: chartreuse;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    color:violet;
+    font-size: 5em;
+}
+p{
+    color:aqua;
+    width:500px;*/
+   /* border:1px solid black;*/
+/*}
+#hey1{
+    text-align: center;
+    color: blue;
+}
+.abcd{
+    text-align: center;
+    color: brown;
+}
+.efg{
+    color: yellow;
+    text-align: center;
+}*/
+/* universal selector*/
+/**{
+    text-align: center;
+    color: yellow;
+    font-size:large;
+}*/
+/*new tab will use in background colour*/
+/*a[target]{
+    background-color:tomato
+}*/
+/* more or less symbol*/
+/*[title~=linux]{
+    border:5px solid red;
+}*/
+/*[class|=top]{
+    background-color: yellow;
+}*/
+[class^="abc"]{
+    background-color: red;
+}
+[class$="xyz"]{
+    background-color: palevioletred;
+}
+[class*="xy"]{
+    background-color: blue;
+}

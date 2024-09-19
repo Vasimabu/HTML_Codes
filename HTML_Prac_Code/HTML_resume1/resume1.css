@@ -1,0 +1,55 @@
+dt{
+    background-color: black;
+    color:red;
+    padding:15px;
+    top:0px;
+    left:0px;
+    margin: 1em 0;
+    position: sticky;
+}
+.box{
+    float:left;
+    width: 160px;
+    height:160px;
+    margin-right: 20px;
+    border:dotted;
+    background-color:yellow;
+}
+.de{
+    width: 160px;
+    height:160px;
+}
+/*.abcd{
+    background-color:skyblue;
+    border: 1px solid black;
+    left:13%;
+    width:87%;
+    position: relative;
+    text-align: left;
+}*/
+.abcd{
+    padding:0px 0px 0px 168px;
+}
+.positioned{
+    background-color: aqua;
+    border: 2px solid black;
+    font-size: large;
+}
+h2{
+    text-align: left;
+}
+h4{
+    text-align: left;
+}
+.detail{
+    text-align: left;
+}
+dd{
+    font-size:1.2rem;
+}
+.top{
+    background-color:violet;
+}
+body{
+    background-color:rgb(132, 178, 228)
+}

@@ -1,0 +1,60 @@
+/*html{
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+body{
+    margin:0px;
+}
+.container{
+    width: 1500px;
+    height:700px;
+    border:3px solid red;
+}
+.header{
+    width: 1495px;
+    height:80px;
+    background-color: #f1f1f1;
+    border:3px solid green;
+}
+.h1,.h2,.h3{
+    height:80px;
+    background-color: #f1f1f1;
+    border: 2px solid green;
+    float:left
+}
+.h1,.h3{
+    width:297.5px;
+}
+.h2{
+    width:890.3px;
+}
+.menu{
+    width: 1500px;
+    height:80px;
+    border: 4px transparent black;
+    background-color: rgb(76, 76, 197);
+}
+.m1,.m2,.m3,.m4{
+    width:370px;
+    height:80px;
+    border: 3px transparent black;
+    float:left;
+    text-align: center;
+}
+.content{
+        width: 1500px;
+        height:450px;
+        border:3px dotted black;
+}
+.content>div{
+    height:450px;
+    border: 3px  solid plum;
+    float: left;
+}
+.c1{
+    width:400px;
+}
+.c2{
+    width:1055px;
+}

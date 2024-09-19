@@ -1,0 +1,111 @@
+/*div{
+    width:10px;
+    height:100px;
+    background: green;
+    transition:width 2s;
+}
+div:hover{
+    width:200px;
+    height:100px;
+}*/
+/*div{
+    width:100px;
+    height: 100px;
+    background: red;
+    transition: width 2s,height 2s, trasform 2s;
+    transition-duration: 3s;
+}
+div:hover{
+    background-color: coral;
+    width:300px;
+    height:300px;
+    transform: rotate(360deg);
+}*/
+/*.button{
+    background-color: brown;
+    border: none;
+    border-radius: 32%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: blue;
+    color: yellow;
+
+}*/
+/*.newspaper{
+    column-count: 3;
+    column-width: 200px;
+    column-rule-style:double;
+    column-rule: 4px double rgb(79,185,227); 
+}
+h1{
+    column-span: all;
+}*/
+/* .container{
+    column-width: 250px;
+    column-gap: 20px;
+}
+.newspaper{
+    background-color: rgb(207,232,220);
+    border: 2px solid rgb(79,185,227);
+    padding:10px;
+    margin: 0 0 1em 0;
+} */
+/* p::after{
+    content: " - welcome";
+} */
+/*.header{
+    background-color: #9436c3;
+    color:#ffffff;
+    padding: 15px;
+}
+html{
+    font-family:"Lucida Sans", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.row::after{
+    content:"" ;
+    clear: both;
+    display: table;
+}
+[class*="col-"]{
+    float:left;
+    padding: 15px;
+}
+.menu ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.menu li{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24) ;
+}*/
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-shadow: 2px 2px 4px #000000;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}

@@ -1,0 +1,48 @@
+/*
+*{
+    color: brown;
+}
+body{
+    background-color: antiquewhite;
+}
+table{
+    width:"90%";height:"50%";border: 3px solid red;
+    background-color: aqua;
+}
+#head{
+    background-color:gray;
+}
+/*th{
+    background-color: brown;
+    border: 2px solid green;
+}*/
+/*.colum{
+    background-color:white;
+}
+td{
+    border:1px solid orangered;
+}
+div>p{
+    background-color: black;
+    border-radius: 1px solid red;
+}*/
+/* Set the text color to red */
+.color-example {
+    color: red;
+  }
+  
+  /* Set the text color to a hexadecimal value */
+  .hex-example {
+    color: #336699;
+  }
+  
+  /* Set the text color to an RGB value */
+  .rgb-example {
+    color: rgb(255, 0, 0);
+  }
+  
+  /* Set the text color to an RGBA value with transparency */
+  .rgba-example {
+    color: rgba(68, 3, 3, 0.5);
+  }
+  
